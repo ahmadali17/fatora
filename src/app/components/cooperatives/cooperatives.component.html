@@ -1,0 +1,12 @@
+<div class="head">
+  <h1>Your Score : {{ counter }}</h1>
+</div>
+<div class="row" *ngFor="let row of rows">
+  <div class="col" *ngFor="let col of row">
+    <app-card [itemName]="col" [itemColor]="colorsArr"></app-card>
+  </div>
+</div>
+
+<div>
+  <button class="btn" (click)="pass()">pass</button>
+</div>

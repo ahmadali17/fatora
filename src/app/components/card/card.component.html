@@ -1,0 +1,9 @@
+<div class="card">
+  <p>{{ words[itemName] }}</p>
+</div>
+
+<div *ngIf="isPressed">
+  <div {{style="background-color: itemColor" }}>
+    <p>{{ words[itemName] }}</p>
+  </div>
+</div>

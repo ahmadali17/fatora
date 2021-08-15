@@ -1,0 +1,23 @@
+.row {
+  width: 100%;
+  clear: both;
+  text-align: center;
+}
+
+.col {
+  display: inline-block;
+  min-height: 20px;
+  min-width: 20px;
+  margin: 1px;
+  text-align: center;
+}
+
+.head {
+  text-align: center;
+}
+
+.btn {
+  width: 50%;
+  height: 25%;
+  padding: 25px;
+}
